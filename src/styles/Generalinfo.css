@@ -1,0 +1,33 @@
+.general-info-container{
+    width: 1024px;
+    margin-top: 1rem;    
+}
+
+.main-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.city-email-container, .github-linkedin-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.full-name-container{
+    font-size: 28px;
+    text-align: center;
+}
+
+.full-name-container > input{
+    font-size: 32px;
+    text-align: center;
+}
+
+hr{
+    height: 1px;
+    background-color: rgba(0, 80, 185, 0.829);
+    width: 100%;
+}
