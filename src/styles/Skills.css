@@ -1,0 +1,10 @@
+.skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-column{
+    display: flex;
+    flex-direction: column;
+}

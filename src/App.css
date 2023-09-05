@@ -2,5 +2,34 @@ body, html{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+  background-color: #222;
 }
+
+.App{
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  background-color: white;
+  padding: 8px;
+}
+
+.logo-app{
+  height: 100px;
+  width: auto;
+}
+
+.info-btns-app{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 300px;
+  background-color: rgb(153, 153, 153);
+  border-radius: 12px;
+}
+
+h3{
+  margin: 0;
+  padding: 0;
+}
+

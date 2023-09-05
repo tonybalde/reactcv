@@ -151,12 +151,6 @@ function Generalinfo({ city, country, email, fullName, github, linkedin, intro }
         </div>
       </div>
       <hr />
-      <div className="intro">
-         <span>{intro}</span>
-
-        {/* TODO - Build the function to edit the Intro */}
-
-      </div>
     </div>
   );
 }
