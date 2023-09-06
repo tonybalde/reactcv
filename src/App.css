@@ -24,7 +24,6 @@ body, html{
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: center;
   width: 300px;
   background-color: rgb(153, 153, 153);
   border-radius: 12px;
