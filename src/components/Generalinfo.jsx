@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Generalinfo.css";
 
-function Generalinfo({ city, country, email, fullName, github, linkedin, intro }) {
+function Generalinfo({ city, country, email, fullName, github, linkedin }) {
   const [isEditingCityCountry, setIsEditingCityCountry] = useState(false);
   const [isEditingEmail, setIsEditingEmail] = useState(false);
   const [isEditingFullName, setIsEditingFullName] = useState(false);

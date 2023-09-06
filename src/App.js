@@ -5,7 +5,6 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 
 
-
 function App() {
   return (
     <div className="App">
@@ -23,7 +22,6 @@ function App() {
         fullName="John Doe"
         github="https://www.github.com/johndoe"
         linkedin="https://www.linkedin.com/in/johndoe" 
-        intro="I am a full-stack software engineer especially interested in building magical mobile experiences, scaling systems up, and shipping reliable applications. Note: use the summary when it makes sense."
         />
       <Skills 
         languages="HTML, CSS, JavaScript, TypeScript, Ruby"
