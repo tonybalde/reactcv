@@ -1,0 +1,10 @@
+.projects-main-container{
+    margin-top: 12px;
+}
+
+.project-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}

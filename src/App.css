@@ -14,14 +14,16 @@ body, html{
 }
 
 .logo-app{
-  height: 100px;
-  width: auto;
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
 }
 
 .info-btns-app{
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   justify-content: center;
   width: 300px;
   background-color: rgb(153, 153, 153);

@@ -1,0 +1,40 @@
+.project-card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.project-name{
+    font-weight: bold;
+}
+
+.project-technologies{
+  font-style: italic;   
+}
+
+.span-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.edit-btn{
+    background-image: url("../images/edit.png");
+    background-size: 22px;
+    height: 16px;
+    width: 16px;
+    border: none;
+
+}
+
+.project-name-repo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.github-repo{
+    display: flex;
+    gap: 6px;
+}
