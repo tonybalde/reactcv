@@ -1,0 +1,17 @@
+.education-achievements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-title{
+    font-weight: bold;
+}
+
+.education-date{
+    font-style: italic;
+}
+
+.education-dates{
+    display: flex;
+    gap: 8px;
+}

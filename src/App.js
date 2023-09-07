@@ -4,6 +4,8 @@ import Generalinfo from "./components/Generalinfo.jsx";
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Works from './components/Works';
+import Education from './components/Education';
+
 
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
         />
         <Projects />
         <Works />
+        <Education />
+
       </div>
 
     </div>

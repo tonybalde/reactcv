@@ -1,0 +1,24 @@
+
+.education-main-container{
+    margin-bottom: 16px;
+}
+
+.education-btns-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.add-del-education-btn{
+    width: 180px;
+    border: 1.2px solid rgba(0, 80, 185, 0.829);
+    border-radius: 5px;
+    user-select: none;
+}
+
+.add-del-education-btn:hover{
+    background-color: rgba(0, 80, 185, 0.829);
+    color: white;
+}
