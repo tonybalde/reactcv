@@ -11,12 +11,19 @@ body, html{
   justify-content: space-between;
   background-color: white;
   padding: 8px;
+  margin-top: 8px;
+  border-radius: 12px;
+  
 }
 
 .logo-app{
   height: 80px;
   width: 80px;
   margin-top: 10px;
+}
+
+.main-cv{
+  width: 920px;
 }
 
 .info-btns-app{

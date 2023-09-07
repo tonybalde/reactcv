@@ -1,22 +1,18 @@
-.projects-main-container{
-    margin-top: 12px;
-}
-
-.project-btns{
+.add-del-work-btns-container{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 8px;
 }
 
-.add-del-project-btn{
+.add-del-work-btn{
     width: 180px;
     border: 1.2px solid rgba(0, 80, 185, 0.829);
     border-radius: 5px;
     user-select: none;
 }
 
-.add-del-project-btn:hover{
+.add-del-work-btn:hover{
     background-color: rgba(0, 80, 185, 0.829);
     color: white;
 }

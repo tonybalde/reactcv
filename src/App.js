@@ -3,6 +3,7 @@ import appLogo from "./images/resumeLogo.png";
 import Generalinfo from "./components/Generalinfo.jsx";
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Works from './components/Works';
 
 
 function App() {
@@ -15,22 +16,23 @@ function App() {
       </div>
 
       <div className="main-cv">
-      <Generalinfo 
-        city="Los Angeles"
-        country="United States"
-        email="johndoe@email.com"
-        fullName="John Doe"
-        github="https://www.github.com/johndoe"
-        linkedin="https://www.linkedin.com/in/johndoe" 
+        <Generalinfo 
+          city="Los Angeles"
+          country="United States"
+          email="johndoe@email.com"
+          fullName="John Doe"
+          github="https://www.github.com/johndoe"
+          linkedin="https://www.linkedin.com/in/johndoe" 
+          />
+        <Skills 
+          languages="HTML, CSS, JavaScript, TypeScript, Ruby"
+          frameworks="React, Tailwind CSS, Ruby on Rails"
+          platforms="Linux, Windows"
+          tools="Git, Trello, Jira"
+          databases="MySQL, MongoDB, PostgreSQL"
         />
-      <Skills 
-        languages="HTML, CSS, JavaScript, TypeScript, Ruby"
-        frameworks="React, Tailwind CSS, Ruby on Rails"
-        platforms="Linux, Windows"
-        tools="Git, Trello, Jira"
-        databases="MySQL, MongoDB, PostgreSQL"
-      />
-      <Projects />
+        <Projects />
+        <Works />
       </div>
 
     </div>
