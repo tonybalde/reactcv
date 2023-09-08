@@ -22,6 +22,36 @@ body, html{
   margin-top: 10px;
 }
 
+.instrucctions-para{
+  display: flex;
+  text-align: justify;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.pdf-print-btn-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.print-pdf-btns{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  height: 42px;
+  width: 42px;
+}
+
+.print-pdf-btns:hover{
+  cursor: pointer;
+}
+
+
+
 .main-cv{
   width: 920px;
 }

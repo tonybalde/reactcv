@@ -7,7 +7,7 @@ function Education() {
   // Initialize the state to hold the list of education entries
   const [educationList, setEducationList] = useState([
     {
-      educationTitle: "System Analyst, ISIV, Corrientes, Argentina",
+      educationTitle: "M.Sc. Computer Science, University of Munich, Germany.",
       startDate: "Aug 2015",
       finishDate: "Dec 2018",
     },
@@ -52,7 +52,7 @@ function Education() {
           Add Education
         </button>
         <button className="add-del-education-btn" onClick={removeLastEducation}>
-          Remove Last Education
+          Remove Education
         </button>
       </div>
     </div>

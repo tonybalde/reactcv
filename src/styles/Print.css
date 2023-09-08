@@ -1,0 +1,40 @@
+/* print.css
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    .print-content, .print-content * {
+      visibility: visible;
+    }
+    .print-content {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+   */
+
+/* print.css */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print-content, .print-content * {
+    visibility: visible;
+  }
+  .print-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  /* Hide specific elements you don't want to print */
+  .print-content .pdf-print-btn-container,
+  .print-content .live-repo-links {
+    display: none;
+  }
+
+  a, button{
+    display: none;
+  }
+}  

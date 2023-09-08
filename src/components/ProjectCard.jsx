@@ -171,6 +171,7 @@ function ProjectCard({ projectName, liveUrl,repoUrl, technologies, description, 
                 onChange={(e) => setNewLiveUrl(e.target.value)}
                 onBlur={handleLiveUrlBlur}
                 onKeyDown={handleLiveUrlKeyDown}
+                autoFocus
               />
             ) : (
               <a href={newLiveUrl} target="_blank" rel="noreferrer">
@@ -191,6 +192,7 @@ function ProjectCard({ projectName, liveUrl,repoUrl, technologies, description, 
                 onChange={(e) => setNewRepoUrl(e.target.value)}
                 onBlur={handleRepoUrlBlur}
                 onKeyDown={handleRepoUrlKeyDown}
+                autoFocus
               />
             ) : (
               <a href={newRepoUrl} target="_blank" rel="noreferrer">

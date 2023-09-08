@@ -46,8 +46,8 @@ function Projects() {
       <div className="projects-list">
         {projectCards}
         <div className="project-btns">
-          <button className="add-del-project-btn" onClick={addProjectCard}>Add Another Project</button>
-          <button className="add-del-project-btn" onClick={removeLastProjectCard}>Remove Last Project</button>
+          <button className="add-del-project-btn" onClick={addProjectCard}>Add Project</button>
+          <button className="add-del-project-btn" onClick={removeLastProjectCard}>Remove Project</button>
         </div>
       </div>
     </div>

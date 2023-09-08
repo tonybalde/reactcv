@@ -47,8 +47,8 @@ function Works() {
         />
       ))}
       <div className="add-del-work-btns-container">
-        <button className="add-del-work-btn" onClick={addWorkExperience}>Add Work Experience</button>
-        <button className="add-del-work-btn" onClick={deleteLastWorkExperience}>Delete Last Experience</button>
+        <button className="add-del-work-btn" onClick={addWorkExperience}>Add Experience</button>
+        <button className="add-del-work-btn" onClick={deleteLastWorkExperience}>Remove Experience</button>
       </div>
     </div>
   );
