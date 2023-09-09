@@ -14,10 +14,13 @@ just click in the imagen preview of app below:
 
 [![DevCV App](https://github.com/tonybalde/reactcv/blob/main/src/images/devcvpreview.png)](https://www.youtube.com/watch?v=QwLLN-SqhGY)
 
-And this is the PDF output:
+And this is the PDF output example:
 
-[![DevCV App](https://github.com/tonybalde/reactcv/blob/main/src/images/pdfdevcvpreview.png)](https://github.com/tonybalde/reactcv/blob/main/src/files/devcv.pdfg)
+[![DevCV App](https://github.com/tonybalde/reactcv/blob/main/src/images/pdfdevcvpreview.png)](https://github.com/tonybalde/reactcv/blob/main/src/files/devcv.pdf)
 
+## TODO: 
+In later reviews, I want to build a button (I've tried but didn't work)to save the PDF file (similar to the print button) where you can see the clickable links to your Github or LinkedIn profile and your projects live demo and repo urls. So when
+you click in one of those links, a browser will open and shows that web.
 
 
 
