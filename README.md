@@ -19,8 +19,11 @@ And this is the PDF output example:
 [![DevCV App](https://github.com/tonybalde/reactcv/blob/main/src/images/pdfdevcvpreview.png)](https://github.com/tonybalde/reactcv/blob/main/src/files/devcv.pdf)
 
 ## TODO: 
-In later reviews, I want to build a button (I've tried but didn't work)to save the PDF file (similar to the print button) where you can see the clickable links to your Github or LinkedIn profile and your projects live demo and repo urls. So when
+1. In later reviews, I want to build a button (I've tried but didn't work)to save the PDF file (similar to the print button) where you can see the clickable links to your Github or LinkedIn profile and your projects live demo and repo urls. So when
 you click in one of those links, a browser will open and shows that web.
+2. Remove the header and the footer info in the .pdf file, so it's more clean and similar to a real cv.
+
+## Thanks for checking this out!
 
 
 
