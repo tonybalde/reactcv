@@ -1,5 +1,6 @@
 # React CV App
 
+Live demo at: [[DevCV App]](https://devcv.vercel.app/)
 ### If you are beginner Dev, and want a free template to build your CV, this is the App! 
 
 ## How it works?
@@ -22,6 +23,8 @@ And this is the PDF output example:
 1. In later reviews, I want to build a button (I've tried but didn't work)to save the PDF file (similar to the print button) where you can see the clickable links to your Github or LinkedIn profile and your projects live demo and repo urls. So when
 you click in one of those links, a browser will open and shows that web.
 2. Remove the header and the footer info in the .pdf file, so it's more clean and similar to a real cv.
+3. Improve compatibility with Chrome (I test it in Brave and Edge and worked fine).
+4. Make it responsive.
 
 ## Thanks for checking this out!
 
