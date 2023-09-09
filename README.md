@@ -1,6 +1,24 @@
 # React CV App
 
-An App to create to your CV (or resumé) and download it in PDF or just print it.
+### If you are beginner Dev, and want a free template to build your CV, this is the App! 
+
+## How it works?
+1. Click in the item you want to edit, and write the new value (text).
+2. Click outside the input (when you edited the previous value with the new one) or press Enter to save the new value.
+3. Click "Add.." button in Projects, Work Experience or Education titles, below the example (you can edit the example) to add a new item of these section. Also you can remove the last item added in each section by clicking in the "Remove..." button.
+4. Click on the date you want to edit with the new value and save it like with the preview items.
+5. Click on the "Printer Icon" below the instruccions on the left, so you can print your CV or save it as a PDF file (you have to choose this option instead of your default printer).
+
+Here you have a short video tutorial how to use the App, 
+just click in the imagen preview of app below:
+
+[![DevCV App](https://github.com/tonybalde/reactcv/blob/main/src/images/devcvpreview.png)](https://www.youtube.com/watch?v=QwLLN-SqhGY)
+
+And this is the PDF output:
+
+[![DevCV App](https://github.com/tonybalde/reactcv/blob/main/src/images/pdfdevcvpreview.png)](https://github.com/tonybalde/reactcv/blob/main/src/files/devcv.pdfg)
+
+
 
 
 
