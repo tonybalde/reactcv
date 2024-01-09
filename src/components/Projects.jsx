@@ -12,14 +12,14 @@ function Projects() {
     return (
       <ProjectCard
         key={uuidv4()}
-        projectName="Where's Waldo"
-        liveUrl="https://www.whereiswaldo.com"
-        repoUrl="https://www.github.com/johndoe/waldo"
-        technologies="JavaScript, React, Ruby, Ruby on Rails, PostgreSQL"
-        description="Created a full stack photo tagging game using React+Rails"
-        hit1="Built front end with React and React Hooks"
-        hit2="Used Rails API app…"
-        hit3="Stored data in databases…"
+        projectName="A Great App"
+        liveUrl="https://www.google.com"
+        repoUrl="https://www.github.com/johndoe/greatapp"
+        technologies="Here are the technologies I used to build this app"
+        description="A summary about the app"
+        hit1="Hit one, something important about the app"
+        hit2="Hit two, another relevant info"
+        hit3="Hit three, some other info to mention"
       />
     );
   }

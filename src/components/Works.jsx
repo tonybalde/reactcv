@@ -9,9 +9,9 @@ function Works() {
     companyLocation: "Los Angeles, United States",
     startDate: "Jan 2022",
     endDate: "Jul 2023",
-    role: "Technical Support / ISP",
+    role: "Your Role, e.g: IT Support",
     roleDescription:
-      "Internet node administrator, technical support, Internet equipment configuration, network cabling, basic telephony knowledge, customer service, advice, billing...",
+      "Summary of your role. e.g: Internet node administrator, technical support, Internet equipment configuration, network cabling, basic telephony knowledge, customer service, advice, billing...",
   };
 
   const [workExperiences, setWorkExperiences] = useState([initialWorkExperience]);
